@@ -16,9 +16,9 @@ namespace ModalModalessForm
             InitializeComponent();
         }
 
-        private void Label1_Click(object sender, EventArgs e)
+        public string Title
         {
-
+            set { this.Text = value; }
         }
     }
 }
